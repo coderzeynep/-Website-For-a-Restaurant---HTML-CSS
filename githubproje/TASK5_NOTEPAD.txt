@@ -1,0 +1,416 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+     <!-- <style>
+       .sag{width: 900px; margin: auto; text-align: justify;}
+       .sol{float: left;  width: 250px; height: 250px;}
+    </style>  -->
+    <!-- custom css file link-->
+
+    <link rel="stylesheet" type="text/css" href="task5.css">
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <!--header section start-->
+    <header>
+        <a href="#" class="logo"><img src="restaurant.png" alt=""></a>
+
+        <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+      <!--   <i class="fas fa-bars" id="menu"></i>
+        <i class="fas fa-search" id="menu"></i>
+        <i class="fas fa-heart" id="menu"></i>
+        <i class="fas fa-shopping-cart" id="menu"></i> -->
+        </div>
+    </header>
+     <!--header section end-->
+
+
+
+
+    <!--slider section start-->
+
+<div class="home" id="home">
+    <div class="swiper home-slider">
+        <div class=" swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide slide1">
+                <div class="content">
+                  <!--  <img src="2.png" alt=""> -->
+                  <h1>Smiley Restaurant</h1>
+                  <p>Feels Like Home, Tastes Like a Paradise</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide slide2">
+                <div class="content">
+                  <h1>Experience excellent dining</h1>
+                  <p>You will love it!</p>
+                  <!-- <img src="1.png" alt="">--> 
+                </div>
+            </div>
+
+            <div class="swiper-slide slide slide3">
+                <div class="content">
+                  <h1>The Sunday Bite</h1>
+                  
+                  <!--  <img src="3.png" alt=""> --> 
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+<!--slider section end-->
+
+
+
+<!--about section starts-->
+<section class="welcome" id="about">
+  <h1 class="heading"> WELCOME TO SMILEY </h1>
+  <center><h3 class="sub-heading"> ~ Luxury & Quality ~ </h3></center>
+
+   <div class="box-container">
+      <div class="box"> 
+         <div class="image">
+             <img src="333 (1).png" alt="">
+         </div>
+   
+         <div class="content">
+          <h3>HISTORY OF THE RESTAURANT</h3>
+          <P>Welcome! We, Smiley Restaurant, have been embarking 
+            on a flavorful journey for over 20 years. Since our
+             establishment in 2002. Renowned 
+              for carefully selected ingredients.<!-- , authentic recipes,
+               and traditional flavors, our restaurant is a pioneer
+                in delivering a high-quality dining experience. By 
+                blending traditional tastes with a modern twist,
+                 our aim is to offer our guests a unique culinary
+                  adventure.</P> -->
+                  <a href="#" class="btn">Read More</a>
+         </div> 
+     </div> 
+
+    
+     <div class="box"> 
+      <div class="image">
+          <img src="333 (2).png" alt="">
+      </div>
+
+      <div class="content">
+       <h3>DELICIOUS CUISINE</h3>
+       <P>At Smiley Restaurant, we take pride in serving exceptional
+         dishes that cater to your palate. Using locally sourced
+          and fresh ingredients, each plate is meticulously prepared.<!-- 
+           in our kitchen. Our chefs 
+            strive to make our dishes stand out by incorporating 
+            special recipes and their own creative touch, ensuring 
+            you have an unforgettable culinary experience.
+             Additionally, we constantly explore new flavors 
+             to surprise you with special events and themed
+              menus.</P> -->
+               <a href="#" class="btn">Read More</a>
+      </div> 
+  </div> 
+
+
+
+  <div class="box"> 
+    <div class="image">
+        <img src="333 (3).png" alt="">
+    </div>
+
+    <div class="content">
+     <h3>GUEST SATISFACTION</h3>
+     <P>Guest satisfaction is our top priority.
+       Smiley Restaurant boasts a warm and welcoming atmosphere, 
+       thanks to our experienced team dedicated to delivering
+        high-quality service. <!-- Exceeding our guests' expectations
+         is the foundation of our hospitality and attentive approach.
+          We pay attention to every detail to ensure your satisfaction,
+           and our professional staff is delighted to assist you at every
+            step. Come to XYZ Restaurant, savor our delicious meals, and 
+            let us accompany you on delightful moments.</P> -->
+             <a href="#" class="btn">Read More</a>
+    </div> 
+</div> 
+
+
+   </div> 
+</section>
+<!--about section ends-->
+
+
+
+<!--menu section starts-->
+
+<section class="our-menu" id="menu">
+<h1 class="heading">Our Food Menu</h1>
+<center><h3 class="sub-heading"> ~ see what we offer ~ </h3></center>
+
+<div class="menu-container">
+
+   <div class="item">
+      <div class="item-name">
+         <h2>Starters</h2>
+      
+      </div>
+      <div class="item-body">
+        <div class="item-menu">
+          <h3>Chilli Cauliflower</h3>
+          <span class="dots"></span>
+          <h3>$26</h3>
+          <ul>
+            <li><a href="#">Cauliflower, corn flour, red chili powder</a></li>     
+          </ul>
+        </div>
+        <div class="item-menu">
+          <h3>Brocoli Tikki</h3>
+          <span class="dots"></span>
+          <h3>$20</h3>
+          <ul>
+            <li><a href="#">Mashed Brocoli, cottage cheese, mushrooms</a></li>  
+          </ul>
+        </div>
+        <div class="item-menu">
+          <h3>Paneer</h3>
+          <span class="dots"></span>
+          <h3>$18</h3>
+          <ul>
+            <li><a href="#">Cheese, yoghurt, curry leavs </a></li>            
+          </ul>
+        </div>
+     </div>
+   </div>
+
+
+ <div class="item">
+  <div class="item-name">
+     <h2>Main Courses</h2>
+   <!--  <img src="food.png" alt="" width="23px" height="23px"> --> 
+  </div>
+  <div class="item-body">
+    <div class="item-menu">
+      <h3>Chicken Wrap</h3>
+      <span class="dots"></span>
+      <h3>$37</h3>
+      <ul>
+        <li><a href="#">Season salads, sausage, chilli</a></li>
+      </ul>
+    </div>
+    <div class="item-menu">
+      <h3>Bruschetta</h3>
+      <span class="dots"></span>
+      <h3>$35</h3>
+      <ul>
+        <li><a href="#">Grilled bread, tomato, olive oil, basil </a></li>    
+      </ul>
+    </div>
+    <div class="item-menu">
+      <h3>Fried Calamari</h3>
+      <span class="dots"></span>
+      <h3>$33</h3>
+      <ul>
+        <li><a href="#">Breaded calamari, lightly fried, served with a marina </a></li> 
+      </ul>
+    </div>
+ </div>
+</div>
+
+
+<div class="item">
+  <div class="item-name">
+     <h2>Desserts</h2>
+   <!--  <img src="food.png" alt="" width="23px" height="23px"> -->
+  </div>
+  <div class="item-body">
+    <div class="item-menu">
+      <h3>Lemon Cake</h3>
+      <span class="dots"></span>
+      <h3>$16</h3>
+      <ul>
+        <li><a href="#">Soft, fresh, lemon flavor</a></li>
+      </ul>
+    </div>
+    <div class="item-menu">
+      <h3>Strawberry Donut</h3>
+      <span class="dots"></span>
+      <h3>$15</h3>
+      <ul>
+        <li><a href="#">Strawberries with cream, chocolate sausage, adittional strawberry</a></li>
+      </ul>
+    </div>
+    <div class="item-menu">
+      <h3>Chocolate cheesecake</h3>
+      <span class="dots"></span>
+      <h3>$18</h3>
+      <ul>
+        <li><a href="#">Chocalate sausage, cream, Season blueberries </a></li> 
+      </ul>
+    </div>
+ </div>
+</div>
+
+<div class="item">
+  <div class="item-name">
+     <h2>Drinks</h2>
+    
+  </div>
+  <div class="item-body">
+    <div class="item-menu">
+      <h3>Coke</h3>
+      <span class="dots"></span>
+      <h3>$6</h3>
+      <ul>
+        <li><a href="#">330mL</a></li>
+      </ul>
+      
+    </div>
+    <div class="item-menu">
+      <h3>Orange Juice</h3>
+      <span class="dots"></span>
+      <h3>$5</h3>
+      <ul>
+        <li><a href="#">420mL</a></li>
+      </ul>
+    </div>
+    
+    <div class="item-menu">
+      <h3>Water</h3>
+      <span class="dots"></span>
+      <h3>$4</h3>
+      <ul>
+        <li><a href="#">500mL</a></li>
+      </ul>
+    </div>
+ </div>
+</div>
+
+
+<div class="item">
+  <div class="item-name">
+     <h2>Veggie</h2>
+   <!--  <img src="food.png" alt="" width="23px" height="23px"> -->
+  </div>
+  <div class="item-body">
+    <div class="item-menu">
+      <h3>American Veggie Burger</h3>
+      <span class="dots"></span>
+      <h3>$16</h3>
+      <ul>
+        <li><a href="#">Soya patties, mustard mayo, beef tomato</a></li>
+      </ul>
+    </div>
+    <div class="item-menu">
+      <h3>Veggie Burrito</h3>
+      <span class="dots"></span>
+      <h3>$12</h3>
+      <ul>
+        <li><a href="#">Roast mixed vegetable rice, served in a 12 inch tortilla, peppers and onions</a></li>
+      </ul>
+    </div>
+    <div class="item-menu">
+      <h3>Veggie Parmo</h3>
+      <span class="dots"></span>
+      <h3>$23</h3>
+      <ul>
+        <li><a href="#">Veggie parmo with two of the following: peppers, onions, jalapenos </a></li> 
+      </ul>
+    </div>
+ </div>
+</div>
+
+
+
+</div>
+</section>
+
+<!--menu section ends-->
+
+
+
+
+<!--contact section starts-->
+
+<section class="footer" id="contact">
+  <img src="restaurant.png" alt="" width="40px" height="40px">
+
+  <div class="container">
+    <div>
+      <h3>LOCATION</h3>
+      <P>Wilonowska 29A / 917 
+        01-234 Warsaw</P>
+    </div>
+     <div>
+      <h3>GET NEWS & OFFERS</h3>
+        <input type="email" name="" placeholder="enter your email">
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+     </div>
+     <div>
+      <h3>CONTACT US</h3>
+      <span>Creative Networks Tohana</span>
+      <span>+48 792624122</span>
+      <span>smiley@gmail.com</span>
+      <span>www.smiley.in</span>
+     </div>
+  </div>
+  <p>&copy;2022 Reserved by creative networks</p>
+</section>
+
+<!--contact section ends-->
+
+
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".home-slider", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 7500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  loop: true,
+  });
+</script>
+     <script type="text/javascript">
+       let menu = document.queurySelector('#menu') ;
+       let navbar = document.queurySelector('.navbar') ;
+       menu.onclick= () =>
+       {
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('active');
+       }
+
+     </script>
+</body>
+</html>
